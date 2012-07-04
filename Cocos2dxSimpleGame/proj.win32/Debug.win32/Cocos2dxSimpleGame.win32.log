@@ -1,0 +1,20 @@
+﻿Build started 7/3/2012 12:37:55 PM.
+     1>Project "C:\Cocos2dx\Cocos2dxSimpleGame\proj.win32\Cocos2dxSimpleGame.win32.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug.win32\Cocos2dxSimpleGame.win32.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I..\Classes /I..\..\cocos2dx /I..\..\cocos2dx\include /I..\..\cocos2dx\kazmath\include /I..\..\cocos2dx\platform\win32 /I..\..\cocos2dx\platform\third_party\win32 /I..\..\cocos2dx\platform\third_party\win32\OGLES /I..\..\CocosDenshion\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\HelloWorldScene.cpp
+         HelloWorldScene.cpp
+     1>c:\cocos2dx\cocos2dxsimplegame\classes\helloworldscene.h(24): error C2061: syntax error : identifier 'CCTime'
+     1>c:\cocos2dx\cocos2dxsimplegame\classes\helloworldscene.cpp(73): error C2440: 'type cast' : cannot convert from 'void (__thiscall HelloWorld::* )(void)' to 'cocos2d::SEL_SCHEDULE'
+                 Pointers to members have different representations; cannot cast between them
+     1>c:\cocos2dx\cocos2dxsimplegame\classes\helloworldscene.cpp(125): error C2511: 'void HelloWorld::gameLogic(cocos2d::CCTime)' : overloaded member function not found in 'HelloWorld'
+                 c:\cocos2dx\cocos2dxsimplegame\classes\helloworldscene.h(8) : see declaration of 'HelloWorld'
+         AppDelegate.cpp
+     1>c:\cocos2dx\cocos2dxsimplegame\classes\helloworldscene.h(24): error C2061: syntax error : identifier 'CCTime'
+         Generating Code...
+     1>Done Building Project "C:\Cocos2dx\Cocos2dxSimpleGame\proj.win32\Cocos2dxSimpleGame.win32.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.34
